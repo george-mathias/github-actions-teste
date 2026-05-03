@@ -16,3 +16,5 @@ git checkout -b "branch name" (create and change to new branch)
 
 
 git remote add origin "github repository url"
+git remote set-url origin "your user @ github url repository" https://yourGitHubUser@github.com/george-mathias/github-actions-teste.git
+- you must generate a individual token on github/settings/developer settings/tokens(new personal access token)
