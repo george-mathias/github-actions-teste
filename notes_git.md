@@ -8,12 +8,13 @@ git pull
 
 git branch (show all branches and display current branch)
 git branch "branch name" (create a new branch)
-git branhc -m "new branch name" (you must be in branch that you want rename)
+git branch -m "new branch name" (you must be in branch that you want rename)
 git branch -D "branch name" (delete branch)
 
 git checkout "branch name" (change between branches)
 git checkout -b "branch name" (create and change to new branch)
 
+git merge feat-section (you must be in the main branch to run this command)
 
 git remote add origin "github repository url"
 git remote set-url origin "your user @ github url repository" https://yourGitHubUser@github.com/george-mathias/github-actions-teste.git
