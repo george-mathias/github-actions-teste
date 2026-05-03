@@ -8,6 +8,7 @@ git pull
 
 git branch (show all branches and display current branch)
 git branch "branch name" (create a new branch)
+git branhc -m "new branch name" (you must be in branch that you want rename)
 git branch -D "branch name" (delete branch)
 
 git checkout "branch name" (change between branches)
