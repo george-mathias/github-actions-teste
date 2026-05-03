@@ -19,3 +19,6 @@ git merge "branch name" (you must be in the main branch to run this command)
 git remote add origin "github repository url"
 git remote set-url origin "your user @ github url repository" https://yourGitHubUser@github.com/george-mathias/github-actions-teste.git
 - you must generate a individual token on github/settings/developer settings/tokens(new personal access token)
+
+
+git remote get-url origin (it returns remote repository url)
